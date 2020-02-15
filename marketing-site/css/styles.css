@@ -1,0 +1,9 @@
+b{
+  background-color: white;
+}
+
+.top-container {
+  height: 20vh;
+  background-image: url("images/header.png");
+  background-color: #fff;
+}
