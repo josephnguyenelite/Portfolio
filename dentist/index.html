@@ -2,18 +2,19 @@
 <html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta charset="utf-8">
-  <title>Boilerplate Template</title>
+  <title>BriteSmile Dr. Example, DDS</title>
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700,900|Ubuntu:300,400,700&display=swap" rel="stylesheet">
 
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 
   <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js"></script>
 
   <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -23,11 +24,163 @@
 
 <body>
 
-  <nav class="navbar">
-    <ul class="navbar-nav">
-      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-    </ul>
-  </nav>
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+
+        <a class="navbar-brand" href="#">britesmile</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About Dr. Example</a></li>
+          </ul>
+        </div>
+
+      </nav>
+
+
+      <!-- Title -->
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1>Your friendly neighborhood dentist!</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-dark btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image mx-auto d-block" src="images/dentist.svg" alt="dentist-mockup">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="row">
+      <div class="col-lg-4 feature-box">
+        <i class="icon fas fa-teeth fa-5x"></i>
+        <h3>Cosmetic Dentistry</h3>
+        <ul>
+          <li>Veneers</li>
+          <li>Teeth Whitening</li>
+          <li>Bonding/White Fillings</li>
+          <li>Invisalign</li>
+        </ul>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <i class="icon fas fa-teeth-open fa-5x"></i>
+        <h3>Restorative Dentistry</h3>
+        <ul>
+          <li>Dental Crowns</li>
+          <li>Dentures</li>
+          <li>Inlays/Onlays</li>
+          <li>Dental Bridges</li>
+          <li>Root Canal (Endodontics)</li>
+        </ul>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <i class="icon fas fa-tooth fa-5x"></i>
+        <h3>Implant Dentistry</h3>
+        <p>Dental implants are artificial tooth replacements that have been revolutionized the way in which dentists can treat single, multiple or even total tooth loss!</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+    <img src="images/dog-img.jpg" alt="dog-profile">
+    <em>Pebbles, New York</em>
+
+    <h2 class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+    <em>Beverly, Illinois</em>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img src="images/techcrunch.png" alt="tc-logo">
+    <img src="images/tnw.png" alt="tnw-logo">
+    <img src="images/bizinsider.png" alt="biz-insider-logo">
+    <img src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>A Plan for Everyone's Needs</h2>
+    <p>Simple and affordable price plans for your and your family.</p>
+
+
+    <h3>Cleaning</h3>
+    <h2>$50</h2>
+    <p>5 Matches Per Day</p>
+    <p>10 Messages Per Day</p>
+    <p>Unlimited App Usage</p>
+    <button type="button">Sign Up</button>
+
+
+    <h3>Root Canal</h3>
+    <h2>$800</h2>
+    <p>Unlimited Matches</p>
+    <p>Unlimited Messages</p>
+    <p>Unlimited App Usage</p>
+    <button type="button">Sign Up</button>
+
+
+    <h3>Dental Implant</h3>
+    <h2>$2000</h2>
+    <p>Pirority Listing</p>
+    <p>Unlimited Matches</p>
+    <p>Unlimited Messages</p>
+    <p>Unlimited App Usage</p>
+    <button type="button">Sign Up</button>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3>Schedule an appointment with us today!</h3>
+    <button type="button">Download</button>
+    <button type="button">Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Copyright 2020 Work by Stone</p>
+
+  </footer>
+
 
 </body>
 
